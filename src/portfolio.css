@@ -1,0 +1,95 @@
+body{
+    display: block;
+    margin: 50px;
+}
+
+
+header{
+    background:linear-gradient(90deg,rgb(69, 4, 153),rgb(82, 7, 82),rgb(4, 103, 133));
+    color: rgb(247, 136, 136);
+    font-family: "Helvetica neue", Helvetica sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 20px;
+    border-radius: 18px 18px 0 0 ;
+    margin: -5px;
+    margin-left: -12px;
+    margin-right: -12px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#set{
+    border-radius: 20px;
+    color: lightblue;
+    background:linear-gradient(130deg,rgb(121, 8, 87),rgb(9, 97, 148),rgb(82, 90, 6));
+    /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+    /* box-shadow: 10px  13px 30px 20px rgb(17, 104, 17); */
+     box-shadow: 10px  13px 30px 20px rgba(9, 94, 23, 0.794);
+   
+    
+   
+}
+
+
+#name{
+    color: rgb(218, 151, 27);
+    font-size: 35px;
+    font-family: 'Comforter', cursive;
+    font-weight: bold;
+    margin-left: 20px;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+    
+   
+    
+}
+
+a{
+    text-decoration: rgb(169, 169, 169);
+    margin: 10px;
+    color: rgb(158, 235, 27);
+    
+}
+
+.active{
+    color:rgb(0, 0, 0);
+}
+   
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    margin-left: 30px;
+    margin-top: 25px;
+    width: 300px; 
+    height: 300px; 
+    border: rgb(199, 202, 23) 5px;
+    border-radius: 70%; 
+}
+.image{
+flex-basis:40%;
+
+
+
+
+
+}
+
+.text{
+    font-size: 15px;
+    color: rgb(226, 226, 226);
+    font-family: cursive;
+    justify-content: space-between;
+}
+span{
+    font-size: 50px;
+    color: black;
+    font-family: cursive;
+
+}
+

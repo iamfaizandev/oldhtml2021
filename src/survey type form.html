@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey </title>
+    <style type="text/css">
+        body{
+            border: 2px rebeccapurple;
+            border-radius: 2px;
+        }
+        
+        
+        h1{
+            color: blue;
+            font-size: 30px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        h2{
+            font-size: 20px;
+            margin-left: 10px;
+            margin-top: 15px;  
+        }
+        label{
+            color: blue;
+            font-size: 15px;
+            width: 100px;
+            display: inline-block;
+            margin-left: 10px;
+        }
+        fieldset{
+            width: 500px;
+            color: darkblue;
+            height: 700px;
+            border-color: blue;
+            border-radius: 15px;
+        }
+        
+        #submit{
+            display: inline-block;
+            width: 100px;
+            position: absolute;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div id="form"> 
+    <form action="" method="post" target=""> 
+    
+        <fieldset> 
+        <h1> Please complete our survey</h1>
+        <h2> Contact Information:</h2>
+        <label> <b>  Email Address:  </b></label>
+        <input id="first" type="email" name="email"> <br> <br>
+         <label> <b> First Name : </b></label>
+        <input type="text" name="firstname"> <br> <br>
+        <label> <b> Last Name : </b></label>
+        <input type="text" name="lastname"> <br> <br>
+        
+        <h2> Geographic Information </h2>
+        <label> <b> State : </b></label>
+        <input type="text" placeholder="Two Characters" name="text"> <br> <br>
+        <label> <b> Zip Code : </b></label> 
+        <input type="text" placeholder="Five digits" name="text"> <br> <br> 
+        
+        <h2> How did you hear about us?</h2>
+        <label> <b> Web Search : </b></label> 
+        <input type="checkbox" name="checkbox"> <br> <br>
+        <label> <b> Facebook : </b></label>
+        <input type="checkbox" name="checkbox"> <br> <br>
+        <label> <b>  twitter: </b></label>
+        <input type="checkbox" name="checkbox"> <br> <br>
+        <label> <b>  Email message: </b></label>
+        <input type="checkbox" name="checkbox"> <br> <br>
+        <h2> Thank You For Taking our Survey </h2> <br> 
+        <center> <button> Submit </button>  <button> Reset</button> </center> 
+        </fieldset>
+
+        
+    
+</form>
+</div>
+</body>
+</html>

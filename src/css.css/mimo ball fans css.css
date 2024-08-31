@@ -1,0 +1,157 @@
+body{
+    border: 3px turquoise;
+    text-align: center;   
+}
+
+h5{
+    font-size: 40px;
+    color: red;
+    font-family: cursive;
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+
+h5::after{
+    content: 'MY PAGE ';
+    color: green;
+    font-family: Roboto Mono;
+    font-size: 40px;
+    transform: rotate(180deg);
+}
+
+#firstproject{
+    border: 3px solid rosybrown;
+    border-radius: 5px;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(20, 98, 214);
+    float: left;
+    margin: 10px
+}
+h1{
+    color: rgb(42, 204, 36);
+    font-size: 40px;
+    background-color: blanchedalmond;
+    padding: 10px;
+    width: 475px;
+    margin-top: 5px;
+    /* border: 3px solid rgb(150, 13, 13); */
+    /* border-radius: 5px;    */
+}
+h1::first-letter{
+    font-family: 'lucida ';
+    color: rgb(223, 13, 13);
+    font-size: 50px;
+    text-shadow: 5px 9px 9px rgb(0, 0, 0);
+}
+ol{
+    display: inline-block;
+}
+.teamArsian{
+    color: rgb(231, 154, 10);
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.teamFzn{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.captian{
+color: darkblue;
+}
+
+
+#gall{
+    font-size: 45px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: darkblue;
+    letter-spacing: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 300px;
+    margin: 40px auto;
+    text-shadow: 0 4px 5px #d1b518;
+    transform: rotate(180deg);
+    
+}
+
+#secondproject{
+    border: 5px black solid;
+    border-radius: 5px;
+    width: 700pxpx;
+    height: 700pxpx;
+    display: inline-block;
+    background-color: rgb(59, 125, 156);
+   
+
+}
+
+img{
+    width: 200px;
+    height: 150px;
+    border: 3px yellowgreen solid;
+    padding: 2px;
+    margin-left: 5px;
+    border-radius: 0 50px 0 100px;
+}
+#leaf{
+    border-radius: 100px 0 100px 0;
+    width: 100px;
+    height: 100px;
+}
+
+#calculator{
+    border: 3px solid green;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;  
+    background-color: skyblue; 
+    float: left;
+}
+
+h4{
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    color: brown;
+    
+}
+
+button{
+    margin: 20px 20px 0 0 ;
+    border-radius: 20px;
+    height: 60px;
+    width: 60px;
+    font-size: 18px;
+    background-color: aliceblue;
+}
+
+#radius{
+    border: 3px solid orange;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-top: 30px;
+    background-color: lightblue;
+    
+}
+
+h6{
+    font-size: 25px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: lighter
+}
+
+p{
+    border-radius: 0 100px 0 100px;
+    padding: 40px;
+    width: 150px;
+    background-color: honeydew;
+    text-align: center;
+}

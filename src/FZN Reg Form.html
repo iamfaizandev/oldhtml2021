@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg Form  </title>
+    <style type="text/css">
+        body{
+            
+            background-color: wheat;
+            background: linear-gradient(155deg,rgb(46, 34, 34),rgba(196, 12, 12, 0.568),rgb(221, 164, 57));
+        }
+        legend{
+            color: red;
+        }
+        h1{
+            text-align: center;
+            color: rgb(223, 205, 192);
+            margin: -4px;
+            background: linear-gradient(45deg,orange,indigo,darkblue);
+            padding: 20px;
+            border-radius: 20px;
+
+        }
+        label{
+            font-size: 15px;
+            color: black;
+            font-weight: bold;
+            display: inline-block;
+            width: 100px;
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+        input{
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 10px ;
+            
+        }
+        sup{
+            font-size: 20px;
+            color: rgb(252, 252, 252);
+        }
+        div{
+            text-align: center;
+        }
+        .button{
+            width: 60px;
+            height: 20px;
+            border: 2px solid black;
+            
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <form action="submited form.html" target="_self" method="post" autocomplete="off">
+        <fieldset>
+            <legend>
+                FZN
+            </legend>
+            <h1> REG FORM FOR F.Z.N INSTITUE <sup> &copy;</sup></h1> 
+            <hr>
+            <label> First Name : </label>  
+            <input type="text" name="firstname"> <br> 
+            <label> Last Name : </label>
+            <input type="text" name="lastname"> <br> 
+            <label> User  Name : </label>
+            <input type="text" name="username"> <br> 
+            <label> Password : </label>
+            <input type="password" name="password"> <br> 
+            <label> Email : </label>
+            <input type="email" name="email"> <br> 
+            <label> Gender : </label>
+            <input type="radio" name="Mygender">Male
+            <input type="radio" name="Mygender" >Female
+            <input type="radio" name="Mygender">Other
+            <br>  
+            <label> Religion :</label>
+            <input type="radio" name="Myreligion">Muslim 
+            <input type="radio" name="Myreligion"> Hindu 
+            <input type="radio" name="Myreligion">  Sikh
+            <br> 
+            <label>  Sports :</label>
+            <input type="checkbox" name="Mysports">Cricket
+            <input type="checkbox" name="Mysports">Football
+            <input type="checkbox" name="Mysports"> Golf
+            <input type="checkbox" name="Mysports">Badmintan
+            <br>
+            <label> Address :</label>
+            <textarea></textarea>
+            <br> 
+            <label>  Color: </label>
+                 <input type="color" name="color">
+                 <br> 
+                 <label>  Date: </label>
+                 <input type="date" name="birth">
+                 <br> 
+                 <label>  Datetime: </label>
+                 <input type="datetime-local" name="">
+                 <br> 
+                 <label>  Month: </label>
+                 <input type="month" name="color">
+                 <br> 
+                 <label>  URL: </label>
+                 <input type="url" name="url">
+                 <br>             
+                 <label>  Number : </label>
+                 <input type="number" name="number">
+                 <br> 
+                 <label>  Week: </label>
+                 <input type="week" name="week">
+                 <!-- <br> <br>   -->
+                 <!-- <label>  Search: </label> -->
+                 <!-- <input type="search" name="search"> -->
+                 
+                 <br> 
+                 <label>  Contact Number: </label>
+                 <input type="tel" name="contactnumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                 <br>  <br>  <br> 
+                 <div> 
+                 <input class="button"   type="reset" value="reset"> <input class="button" type="submit" value="submit">
+                </div>
+                 
+        </fieldset>
+    </form>
+            
+    
+
+
+  
+</body>
+</html>

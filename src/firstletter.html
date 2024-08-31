@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>::First Letter</title>
+    <style type="text/css">
+        body{
+            text-align: center;
+            background-color: rgb(125, 139, 180);
+            font-size: 30px;
+        }
+        h1::first-letter{
+            color: red;
+            font-family: 'lucida calligraphy';
+            font-size: 2cm;
+            text-shadow: 5px 9px 9px rgb(0, 0, 0);
+         }
+         h2::first-line{
+             color: rgb(19, 16, 230);
+             
+         }
+         h3::before{
+             content: 'FAI';
+             color: orange;
+             font-family: cursive;
+             font-size: 60px;
+         }
+         
+         h3::after{
+             content: 'ZAN';
+             color: green;
+             font-family: Roboto Mono;
+             font-size: 90px;
+         }
+         h4::selection{
+             color: green;
+             background-color: orange;
+             }
+
+             #curvedarrow{
+              margin: 0 auto;
+              position: relative;
+              width: 5px ;
+              height: 5px;
+              border-top: 10px transparent;
+              border-right: 10px solid red;
+              transform: rotate(10deg);
+             }
+
+             #curvedarrow::after{
+                 content:"" ;
+                 position: absolute;
+                 border: 0 solid transparent;
+                 border-top: 3px solid rgb(0, 255, 13);
+                 border-radius: 20px 0 0;
+                 top: -12px;
+                 left: -9px;
+                 width: 12px;
+                 height: 12px;
+                 transform: rotate(45deg);
+                 
+
+             }
+</style>
+</head>
+<body>
+    <!-- first-letter -->
+    <h1> W ELCOME </h1>
+    <!-- first-line -->
+    <h2> ABCDE FGHI <br>
+         JKLMN </h2>
+         <!-- before -->
+         <h3> </h3>
+         <!-- selection -->
+         <h4> HINDSUTAN MERI JAAN </h4>
+        
+         <div id="curvedarrow"></div>
+
+    
+
+
+</body>
+</html>

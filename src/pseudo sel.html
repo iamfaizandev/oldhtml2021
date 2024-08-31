@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo example</title>
+    <style type="text/css">
+        .backgroundlight:hover{
+              color: rgb(243, 243, 250);
+              background-color: darkgreen;
+        }
+         .backgroundlight{
+             background-color: rgb(212, 54, 54);
+             font-size: 30px;
+             padding: 5px;
+             text-align: center;
+           }
+
+           .Link{
+               background-color: dodgerblue;
+               padding: 5px;
+               text-align: center;
+           }
+
+           .Link a:active {
+             color: rgb(0, 75, 0);
+             background-color: rgb(191, 248, 2);
+           }
+            
+            .Link a:visited{
+               color: rgb(248, 248, 255);
+               } 
+
+             p:lang(fr){
+                 color: rgb(4, 65, 231);
+             }
+             
+             input:focus{
+               border: 5px solid lightblue;
+               box-shadow: 5px 5px 5px black;
+               color: blue;
+               width: 200px;
+             }
+    </style>
+</head>
+<body>
+    
+    <div class="backgroundlight" >
+       <p> this is a div tag</p>
+    </div>
+
+    <div class="Link">
+      <a href="https://www.facebook.com/login/" target="_blank"> This is Link </a>
+    </div>
+     
+    <p> This P tag is without lang attributes </p>
+
+    <p lang="fr"> This P tag is with lang attributes </p>
+
+    <input type="text" placeholder="Name" name="Firsttext">
+    
+</body>
+</html>
